@@ -11,3 +11,13 @@ npx skills add trevor-lambert/skills --skill jira-ticket -g
 ```
 
 Run it with `/jira-ticket`, or ask "write a Jira ticket for this".
+
+## commit-message
+
+Writes a Conventional Commits message for the staged changes. The diff supplies what changed, and the conversation supplies why. It prints the message and doesn't commit.
+
+```bash
+npx skills add trevor-lambert/skills --skill commit-message -g
+```
+
+Run it with `/commit-message`, or ask "write a commit message".
